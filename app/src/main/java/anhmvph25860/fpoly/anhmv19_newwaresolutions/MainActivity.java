@@ -34,9 +34,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private EditText edtAddress;
-    private TextView tvResult;
+
     private Button btnSearch;
-    private Button btnGGmap;
     private RecyclerView recyclerView;
     private  AddressAdapter adapter;
     private List<String> addressList;
@@ -45,8 +44,7 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue requestQueue;
 
     private final String API_KEy = "h91KH-ca6Csal4pxuqwa_B20TDxpF7cWRmOXHKeQgIc";
-    private double lat;
-    private double lng;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
